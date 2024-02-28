@@ -13,10 +13,10 @@
 
 <script setup>
 
-	const mesaj = ref("selam")  //-->state  sayfa içerisindeki kullanılan değişkenler
+	const mesaj = ref("S.a")  //-->state  sayfa içerisindeki kullanılan değişkenler
 
 	setTimeout(() => {
-		mesaj.value = "merhaba"
+		mesaj.value = "Selamun Aleykum"
 	}, 2000)
 
 
